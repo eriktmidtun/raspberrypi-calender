@@ -1,0 +1,61 @@
+html, body  {
+    padding: 0;
+    margin: 0;
+    height: 100%
+}
+
+body {
+    overflow:hidden; /*hides scrollingbar*/
+}
+
+.top {
+    width: 100%;
+    height:45%;
+    background-color: #b92424;
+    background-size: cover;
+}
+
+#clock-container {
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    height: 140px; /*same as clock font size*/
+    width:50%;
+
+}
+
+.calender {
+    width: 100%;
+    height: 900px;
+}
+
+.calender iframe {
+    height: 118%;
+    width: 100%;
+}
+
+/*everything under here are for the clock */
+.clock {
+  height: 100%;
+  color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 140px;
+  font-family: sans-serif;
+  line-height: 120px;
+  display: flex;
+  position: relative;
+  /*background: green;*/
+  overflow: hidden;
+}
+
+.clock > div {
+  display: flex;
+}
+
+.tick {
+  line-height: 100px;
+}
+
+.tick-hidden {
+  opacity: 0;
+}

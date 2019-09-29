@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	.top {
+	    background-image:url(Pictures/<input image url>);
+	}
+	</style>
+	<script>
+	function setFocus() {
+    	var iframe = document.getElementById("calender");
+		iframe.contentWindow.focus();
+		//force focus on calender. For custom buttons
+	}
+	</script>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body onLoad="startTime();setFocus();">
+	<div class = "top">
+		<div id= "clock-container">
+			<div class="clock">
+				<div id= "txt">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script  src="clock.js"></script>
+
+
+	<div class = "calender">
+		<iframe src="<input google emdeded calender url>" style="border-width:0" width="1080" height="1000" frameborder="0" scrolling="no" id ="calender"></iframe>
+	</div>
+
+</body>
+</html>
