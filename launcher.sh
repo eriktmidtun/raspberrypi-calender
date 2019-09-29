@@ -4,5 +4,6 @@
 cd /
 cd home/pi/Pi-Calender
 sudo modprobe uinput
-sudo python buttons.py
+sudo python sensor.py &
+sudo python buttons.py &
 cd /
