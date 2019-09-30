@@ -2,6 +2,16 @@
 This is an overview of how i made my Raspberry pi controlled calender Kiosk. I have altered some of the files for privacy reasons, this is a public copy of my private repo that is live on the RPi.
 UPDATE; Im currently rewriting the whole thing as a react app, with yr.no api, google photos api, and ATB buss api. It is in a seperate private repository. Planning to be done within the year.
 
+## Final look
+
+![Raspberry Pi](/info-files/final/front.jpg "Front")
+
+Back             |  Front
+:-------------------------:|:-------------------------:
+![Raspberry Pi](/info-files/final/side.jpg "Side with buttons")  |  ![Raspberry Pi](/info-files/final/sensor.jpg "Front with sensor")
+![Raspberry Pi](/info-files/final/back.jpg "Back with wiring") | ![Raspberry Pi](/info-files/final/calender.jpg "the calender")
+
+
 ## Hardware
 The hardware i used to make it:
 * Raspberry Pi Model 3 B+
